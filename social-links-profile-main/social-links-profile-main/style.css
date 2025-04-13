@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+body {
+    background-color: hsl(0, 0%, 8%);
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: hsl(0, 0%, 100%);
+    font-family: inter;
+    font-size: 14px;
+}
+
+.container {
+    background-color:hsl(0, 0%, 12%);
+    border: 2px solid hsl(0, 0%, 12%);
+    border-radius: 10px;
+    width: 280px;
+    padding: 30px 10px;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.container .img {
+    display: flex;
+    justify-content: center;
+}
+
+.container .img img{
+    border-radius: 50%;
+    width: 60px;
+}
+
+.container .infos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container .infos h1 {
+    color:  hsl(75, 94%, 57%);
+}
+
+.span {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.container .links {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.container .links button {
+    border: 0;
+    background: hsl(0, 0%, 20%);
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.container .links button a {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);;
+}
+
